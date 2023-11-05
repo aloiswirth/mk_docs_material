@@ -1,0 +1,127 @@
+site_name: MkDocs Youtube
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/aloiswirth
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/in/alois-wirth-7389a14/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # - pymdownx.highlight
+  # - pymdownx.inlinehilite
+  # - pymdownx.keys
+  # - pymdownx.mark
+  # - pymdownx.smartsymbols
+  # - pymdownx.superfences
+  # - pymdownx.tabbed:
+  #     alternate_style: true
+  # - pymdownx.tasklist:
+  #     custom_checkbox: true
+  # - pymdownx.tilde
+
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/aloiswirth" target="_blank" rel="noopener">Alois Wirth</a>
+
+
+
+ #   primary: deep_orange
+  #   accent: orange
+  #   # Used in the links and the footer
+  #   text: 333333
+  #   # Used as the background for the search bar
+  #   background: FFFFFF
+  #   # Used for the headings
+  #   headings: 333333
+  #   # Used in the footer
+  #   link: 333333
+  #   # Used as the background for the navigation bar
+  #   navigation: FFFFFF
+  #   # Used as the background for the navigation bar
+  #   navigation_text: 333333
+  #   # Used as the background for the code blocks
+  #   code: FFFFFF
+  #   # Used for the code text
+  #   code_text: 333333
+  #   # Used as the background for the pre blocks
+  #   pre: FFFFFF
+  #   # Used for the pre text
+  #   pre_text: 333333
+  #   # Used as the background for the sidebar
+  #   sidebar: FFFFFF
+  #   # Used for the sidebar text
+  #   sidebar_text: 333333
+  #   # Used as the background for the sidebar heading
+  #   sidebar_heading: 333333
+  #   # Used as the background for the footer
+  #   footer: FFFFFF
+  #   # Used for the footer text
+  #   footer_text: 333333
+  #   # Used as the background for the header
+  #   header: FFFFFF
+  #   # Used for the header text
+  #   header_text: 333333
+  #   # Used as the background for the header links
+  #   header_link: 333333
+  #   # Used as the background for the link hover
+  #   link_hover: 333333
+  #   # Used as the background for the link hover
+  #   navigation_hover: 333333
+  #   # Used as the background for the navigation hover
+  #   navigation_text_hover: 333333
+  #   # Used as the background for the navigation hover
+  #   sidebar_hover: 333333
+  #   # Used as the background for the navigation hover
+  #   sidebar_text_hover: 333333
+  #   # Used as the background for the navigation hover
+  #   sidebar_heading_hover: 333333
+  #   # Used as the background for the navigation hover
+  #   footer_hover: 333333
+  #   # Used as the background for the navigation hover
+  #   footer_text_hover: 333333
+  #   # Used as the background for the navigation hover
+  #   header_hover:
